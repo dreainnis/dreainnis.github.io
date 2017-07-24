@@ -1,0 +1,67 @@
+body {
+    width: 1330px;
+    margin: auto;
+    
+}
+
+
+header {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 35px;
+    color: #0e6251;
+    margin:5px;
+}
+
+header h1 {
+    margin: 0px;
+    
+}
+
+nav {
+    border-bottom: 4px solid #4a235a;
+    border-top: 4px solid #4a235a;
+    
+}
+
+#nav {
+    font-size: 30px;
+    font-family: 'Lobster Two', cursive;
+    display: inline-block;
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #1b2631;
+}
+
+a:hover {
+    color: #0e6251;
+}
+
+.imgtext {
+    
+    height: 682px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    background-size: cover;
+    background-image: url("images/boston-1977009_1280.jpg");
+    padding-top: 600px;
+}
+
+li {
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
