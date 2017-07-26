@@ -4,7 +4,6 @@ body {
     
 }
 
-
 header {
     font-family: 'Berkshire Swash', cursive;
     font-size: 35px;
@@ -17,10 +16,11 @@ header h1 {
     
 }
 
+/*This is the navigation section*/ 
+
 nav {
     border-bottom: 4px solid #4a235a;
     border-top: 4px solid #4a235a;
-    
 }
 
 #nav {
@@ -30,38 +30,143 @@ nav {
     text-align: right;
     padding-left: 20px;
     padding-right: 10px;
-    
 }
 
-a {
+#nav a {
     text-decoration: none;
     color: #1b2631;
 }
 
-a:hover {
+#nav a:hover {
     color: #0e6251;
 }
 
+h2 {
+        font-family: 'Lobster Two', cursive;
+        color: #0e6251;
+        font-size: 30px;
+}
+
+/*This is the main body of the homepage*/
+
 .imgtext {
-    
-    height: 682px;
+    height: 300px;
     font-family: 'Dosis', sans-serif;
     font-size: 35px;
     text-align: center;
     color: #ffffff;
     background-size: cover;
     background-image: url("images/boston-1977009_1280.jpg");
-    padding-top: 600px;
+    padding-top: 500px;
 }
 
 li {
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 30px;
-
 }
 
 ul {
     list-style-type: none;
 }
 
+/*This is the house page*/
+
+p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 35px;
+}
+
+.bedroom {
+    height: 250px;
+    margin-bottom: 30px;
+    border-bottom: 2px dashed #5b2c6f;
+   
+}
+
+.bedroom img {
+   float: left;
+    padding-right: 15px;
+    
+}
+
+.kitchen {
+    height: 250px;
+    clear: both;
+    border-bottom: 2px dashed #5b2c6f;
+   
+}
+.kitchen img {
+    float: left;
+    padding-right: 15px;
+   
+}
+
+
+
+/*This is the town section*/
+
+.prospect {
+    color: #fff;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    padding: 10px;
+    width:400px;
+    background-image: url("images/prospect-park-465483_1280.jpg");
+    background-size: cover;
+    
+}
+
+
+.bridge {
+    color: white;
+    margin-top: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    padding: 10px;
+    width:400px;
+    background-image: url("images/bridge-1835647_1280.jpg");
+    background-size: cover;
+}
+
+#townlink {
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+    background-color: #5b2c6f;
+}
+
+#townlink a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*This is the contact us section*/
+
+.text {
+   font-family: 'Dosis', sans-serif; 
+   font-size: 30px;
+}
+
+#fill {
+    width: 100%;
+    height: 250px;
+}
+
+#click {
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    background-color: #5b2c6f;
+    border-radius: 4px;
+    color: #fff;
+}
