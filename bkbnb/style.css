@@ -138,6 +138,7 @@ h3 {
 #townlink {
     border: 2px solid white;
     border-radius: 4px;
+    margin: 2px;
     color: white;
     padding: 5px;
     background-color: #5b2c6f;
