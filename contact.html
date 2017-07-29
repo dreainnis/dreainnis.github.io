@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<!-- saved from url=(0066)https://preview.c9users.io/dreainnis/my-website/bkbnb/contact.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<html>
+    <head>
         <title>Brooklyn BnB</title>
-        <link rel="stylesheet" href="./Brooklyn BnB_files/style.css" type="text/css">
-        <link href="./Brooklyn BnB_files/css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Dosis|Lobster+Two" rel="stylesheet">
     </head>
     
 
@@ -19,30 +19,41 @@
 
 <nav>
     <ul>
-        <li id="nav"><a href="https://preview.c9users.io/dreainnis/my-website/bkbnb/index.html">welcome!</a></li>
-        <li id="nav"><a href="https://preview.c9users.io/dreainnis/my-website/bkbnb/house.html">around the house</a></li>
-        <li id="nav"><a href="https://preview.c9users.io/dreainnis/my-website/bkbnb/town.html">around town</a></li>
-        <li id="nav"><a href="https://preview.c9users.io/dreainnis/my-website/bkbnb/contact.html">ready to book?</a></li>
+        <li id="nav"><a href="index.html">welcome!</a></li>
+        <li id="nav"><a href="house.html">around the house</a></li>
+        <li id="nav"><a href="town.html">around town</a></li>
+        <li id="nav"><a href="contact.html">ready to book?</a></li>
     </ul>
 </nav>
 
+<!--Page Title-->
+
+<h2>ready to book?</h2>
+
 <!--This is the main section so that the user can fill in their details-->
 
-<div class="text">
-    <p></p><h3>Ready to book?</h3>
-    Just enter your details in the box below and we will contact you to verify. Be sure to enter your name, your travel dates and contact details.
-    <p></p>
+
+    <p>Just enter your details in the box below and we will contact you to verify. Be sure to enter your name, your travel dates and contact details.
+    </p>
+
+        <form action="#" method="get">
+			<fieldset>
+				<legend>Your Travel Details:</legend>
+				<label>Name: <input type="text" name="name" size="50" maxlength="100"></label><br />
+				<label>Email: <input type="email" name="email" size="50" maxlength="100"></label><br />
+				<label>Check in: <input type="dates" name="checkin" size="50" maxlength="100"></label><br />
+				<label>Check out: <input type="dates" name="checkout" size="50" maxlength="100"></label><br />
+				<label>Number of Guests: <input type="value" name="guests" size="50" maxlength="100"></label><br /><br />
+				<label for="comments">Anything else we need to know? Leave your comments below:</label><br>
+			        <textarea rows="10" cols="100" id="comments"></textarea><br>
+				<input id="submit" type="submit" value="Book me!">
+			</fieldset>
+        </form>
 
 
-</div>
-    <input type="text" id="fill">
-    <input type="submit" value="Book me!" id="click">
 
-
-
-<footer>2017 Broolyn B.n.B. Email inquiries@brooklynbnb.com</footer>
-   
-</body></html>
+    </body>
+</html>
 
 
 
